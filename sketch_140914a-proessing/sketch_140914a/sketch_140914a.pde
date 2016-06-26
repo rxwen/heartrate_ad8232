@@ -32,7 +32,6 @@ float height_old = 0;
 float height_new = 0;
 float inByte = 0;
 
-
 void setup () {
   // set the window size:
   size(1000, 400);        
@@ -47,11 +46,9 @@ void setup () {
   background(0xff);
 }
 
-
 void draw () {
   // everything happens in the serialEvent()
 }
-
 
 void serialEvent (Serial myPort) {
   // get the ASCII string:
@@ -90,4 +87,3 @@ void serialEvent (Serial myPort) {
     
   }
 }
-
